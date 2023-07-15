@@ -1,0 +1,50 @@
+.task{
+border-radius: 10px;
+background: #FFF;
+}
+.task .time h6{
+  font-size: 14px;
+  font-weight: 500;}
+.task .time div{
+  color: #778399;
+  font-size: 13px;
+  font-weight: 500;
+}
+.task_search p{
+  color: #23235F;
+font-size: 16px;
+font-weight: 500;
+
+}
+.task_complated p{
+  color: #23235F;
+font-size: 16px;
+font-weight: 500;
+}
+/* Set the background color of the progress bar */
+progress {
+  display: block;
+  background-color: #CCC;
+  border-radius: 10px;
+  height: 20px;
+}
+
+/* Set the color of the progress bar itself */
+/* For WebKit-based browsers */
+progress::-webkit-progress-value {
+  background-color: green;
+}
+
+/* For Firefox */
+progress::-moz-progress-bar {
+  background-color: green;
+}
+.task_reminder{display: flex;align-items: center;}
+.task_reminder .content{
+  border-radius: 9px;
+background: #EDECFE;
+height: 39px;
+padding: 5px 15px;
+color: #5051F9;
+
+}

@@ -1,0 +1,22 @@
+//variavles
+$mainColor:#5051F9;
+//
+// golobal
+a{
+  text-decoration: none;
+  color:#fff;
+  margin-bottom: 20px;
+}
+a.active svg{
+  fill:$mainColor
+}
+.left-aside{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  align-items: center;
+  min-height: 100vh;
+  width: 94px;
+}
+

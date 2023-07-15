@@ -1,0 +1,31 @@
+$text-color:#8C97A8;
+//classes
+.text-color{color:$text-color}
+.green{
+  color: #299702;
+font-size: 16px;
+font-weight: 700;
+}
+
+///
+.card{
+  border-radius: 16px;
+background: #FFF;
+width: 274px;
+border: none;
+}
+.card .header i {
+color: #8D98A9;
+background-color: #f3f7fd;
+  padding: 8px;
+  border-radius: 50%;
+}
+.card .header span{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;}
+.card .header .number{color: #1E1E1E;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 700;}

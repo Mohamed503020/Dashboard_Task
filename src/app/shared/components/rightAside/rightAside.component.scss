@@ -1,0 +1,82 @@
+$mainColor:#232360;
+aside{
+  background-color: #fff;
+  min-height: 100%;
+  max-width: 440px;
+  color:$mainColor;
+  padding: 20px;
+}
+.Scheudle .content .title{
+font-size: 20px;
+font-weight: 700;
+}
+
+.Scheudle .invatatin{
+  color: #1EA7FF;
+font-size: 13px;
+font-weight: 500;
+
+}
+.calling .content{
+  border-radius: 10px;
+height: 68px;
+background: #5051F9;
+box-shadow: 0px 8px 20px 0px rgba(80, 81, 249, 0.24);
+}
+.calling .content img{
+  border-radius: 50%;
+  border: 4px solid #fff;
+  width: 30px;
+height: 30px;
+margin-left: -10px;
+}
+
+.add-task input{
+height: 40px;
+border-radius: 7px;
+background: #E8EDF1;
+color:$mainColor
+}
+.add-task h6{
+  color: #768396;
+font-size: 14px;
+font-weight: 500;
+}
+.Collaborators h6{
+  color: #768396;
+font-size: 13px;
+font-weight: 500;
+}
+.Collaborators .box{
+  width: 105px;
+height: 34px;
+font-size: 10px;
+border-radius: 17.5px;
+background: #E8E8FF;
+}
+.Collaborators .box1{color: #5051F9;
+}
+.Collaborators .box2{color:#1EA7FF;
+}
+.Collaborators .add{
+color: $mainColor;
+background-color: #E8EDF1;
+
+}
+.Collaborators .next{
+color: #fff;
+background-color: #5051F9;
+}
+.Collaborators .next,.Collaborators .add{
+  width: 35px;
+height: 35px;
+border-radius: 50%;
+font-size: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Collaborators .box img{
+  border-radius: 50%;
+  margin-left: 10px;
+}

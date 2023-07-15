@@ -1,0 +1,28 @@
+header{
+  background-color: #fff;
+  height: 67px;
+
+}
+header input{
+  border-radius: 7px;
+background: #F3F7FA;
+width: 290px;
+height: 44px;
+}
+.search {
+  position: relative;
+}
+.search i{
+  top: 15px;
+  right: 20px;
+ color:#94A2BC
+}
+.icons .notfication{
+  top: 8px;
+  left: 21px;
+}
+@media (max-width: 550px) {
+    header input{
+width: 250px;
+    }
+}

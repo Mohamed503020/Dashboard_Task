@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row p-2 mt-5">
+    <div class="col-md-6 col-lg-6 col-xl-4 col-12  mt-2 " *ngFor="let card of cardlist">
+      <app-card [icon]="card.icon" [numberCard]="card.numberCard" [name]="card.name" [Chartcolor]="card.Chartcolor"></app-card>
+    </div>
+  </div>
+  <div class="chart p-3 mt-4">
+    <div class="header d-flex justify-content-between">
+      <div class="title"> Task Done </div>
+      <ul class="links  list-unstyled d-flex justify-content-between">
+        <li class="ms-3">Daily</li>
+        <li class="ms-3">Weekly</li>
+        <li class="ms-3 active">Monthly</li>
+      </ul>
+    </div>
+    <div class="chart_content mt-2 mb-2 ">
+
+<app-chart-task [chartOptions]="chartOptions"></app-chart-task>
+    </div>
+  </div>
+<div class="tasklist">
+  <h4>Task </h4>
+  <div class="task" *ngFor="let task of taskList">
+    <app-task [time]="task.time" [commitNumber]="task.commitNumber" [progressColor]="task.progressColor" [progressNumber]="task.progressNumber" ></app-task>
+
+  </div>
+</div>
+
+</div>
